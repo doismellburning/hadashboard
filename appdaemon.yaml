@@ -1,0 +1,11 @@
+appdaemon:
+  disable_apps: 1
+  threads: 10
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret ha_url
+      ha_key: !secret ha_key
+
+hadashboard:
+  dash_url: http://0.0.0.0:5050
