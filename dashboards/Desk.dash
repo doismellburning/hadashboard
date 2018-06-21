@@ -28,9 +28,14 @@ desk_lamp_right:
 reload:
   widget_type: reload
   title: Reload
+
+away_mode:
+  widget_type: input_boolean
+  entity: input_boolean.away_mode
+  title: Away Mode
     
 layout:  
   - clock(2x2), nox(3x3), porta(3x3)
   -
   - desk_lamp_left, desk_lamp_right
-  - reload
+  - reload, away_mode
