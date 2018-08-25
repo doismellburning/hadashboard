@@ -9,11 +9,11 @@ clock:
    
 nox:
   widget_type: camera
-  entity_picture: http://nox.local/live/
+  entity_picture: http://nox.lair.doismellburning.co.uk/live/
 
 porta:
   widget_type: camera  
-  entity_picture: http://porta.local/live/
+  entity_picture: http://porta.lair.doismellburning.co.uk/live/
 
 desk_lamp_left:
   widget_type: switch
