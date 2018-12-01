@@ -1,0 +1,41 @@
+title: Kitchen-Fire
+widget_dimensions: [100, 100]
+# widget_margins: [5, 5]
+columns: 6
+
+clock:
+  widget_type: clock
+  time_format: 24hr
+
+nox:
+  widget_type: camera
+  entity_picture: http://nox.lair.doismellburning.co.uk/live/
+
+porta:
+  widget_type: camera
+  entity_picture: http://porta.lair.doismellburning.co.uk/live/
+
+desk_lamp_left:
+  widget_type: switch
+  entity: switch.desk_lamp_left
+  title: Desk Lamp Left
+
+desk_lamp_right:
+  widget_type: switch
+  entity: switch.desk_lamp_right
+  title: Desk Lamp Right
+
+reload:
+  widget_type: reload
+  title: Reload
+
+away_mode:
+  widget_type: input_boolean
+  entity: input_boolean.away_mode
+  title: Away Mode
+
+layout:
+  - clock(2x2), porta(3x3)
+  -
+  - reload, away_mode
+  - nox(3x3)
