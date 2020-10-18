@@ -1,0 +1,29 @@
+title: Door
+widget_dimensions: [110, 110]
+# widget_margins: [5, 5]
+columns: 10
+
+clock:
+  widget_type: clock
+  time_format: 24hr
+
+porta:
+  widget_type: camera
+  entity_picture: http://porta.lair.doismellburning.co.uk/live/
+
+reload:
+  widget_type: reload
+  title: Reload
+
+away_mode:
+  widget_type: input_boolean
+  entity: input_boolean.away_mode
+  title: Away Mode
+
+layout:
+  - clock(5x5), porta(5x5)
+  -
+  -
+  -
+  -
+  - reload, away_mode
