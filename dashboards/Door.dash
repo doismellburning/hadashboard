@@ -6,6 +6,7 @@ columns: 10
 clock:
   widget_type: clock
   time_format: 24hr
+  widget_style: "font-size: xx-large"
 
 porta:
   widget_type: camera
