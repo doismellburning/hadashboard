@@ -1,6 +1,5 @@
 appdaemon:
   disable_apps: 1
-  threads: 10
   plugins:
     HASS:
       type: hass
