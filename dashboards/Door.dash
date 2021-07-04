@@ -9,8 +9,9 @@ clock:
   widget_style: "font-size: xx-large"
 
 porta:
-  widget_type: camera
-  entity_picture: http://porta.lair.doismellburning.co.uk/live/
+  widget_type: iframe
+  img_list:
+    - http://porta.lair.doismellburning.co.uk/live/
 
 reload:
   widget_type: reload

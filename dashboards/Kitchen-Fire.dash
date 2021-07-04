@@ -8,12 +8,14 @@ clock:
   time_format: 24hr
 
 nox:
-  widget_type: camera
-  entity_picture: http://nox.lair.doismellburning.co.uk/live/
+  widget_type: iframe
+  img_list:
+    - http://nox.lair.doismellburning.co.uk/live/
 
 porta:
-  widget_type: camera
-  entity_picture: http://porta.lair.doismellburning.co.uk/live/
+  widget_type: iframe
+  img_list:
+    - http://porta.lair.doismellburning.co.uk/live/
 
 desk_lamp_left:
   widget_type: switch
