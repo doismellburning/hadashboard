@@ -10,6 +10,9 @@ appdaemon:
   elevation: 0
   time_zone: Europe/London
 
+http:
+  url: http://0.0.0.0:5050
+
 hadashboard:
   dash_url: http://0.0.0.0:5050
 
