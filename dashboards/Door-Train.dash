@@ -1,0 +1,31 @@
+title: Door
+widget_dimensions: [110, 110]
+# widget_margins: [5, 5]
+columns: 10
+
+clock:
+  widget_type: clock
+  time_format: 24hr
+  widget_style: "font-size: xx-large"
+
+porta:
+  widget_type: iframe
+  url_list:
+    - https://traintimes.org.uk/live/BIW
+
+reload:
+  widget_type: reload
+  title: Reload
+
+away_mode:
+  widget_type: input_boolean
+  entity: input_boolean.away_mode
+  title: Away Mode
+
+layout:
+  - clock(5x5), porta(5x5)
+  -
+  -
+  -
+  -
+  - reload, away_mode
